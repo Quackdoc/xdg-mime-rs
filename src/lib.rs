@@ -1,4 +1,4 @@
-#![cfg(any(unix, target_os = "redox"))]
+#![cfg(any(unix, windows, target_os = "redox"))]
 #![doc(html_root_url = "https://docs.rs/xdg_mime/0.4.0")]
 #![allow(dead_code)]
 
